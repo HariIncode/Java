@@ -10,6 +10,7 @@ public class Swap {
         System.out.print("Enter the size of the Array: ");
         int n = sc.nextInt();
 
+        System.out.print("Enter the Array: ");
         int[] arr = new int[n];
 
 
