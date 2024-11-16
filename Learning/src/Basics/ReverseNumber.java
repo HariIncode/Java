@@ -1,5 +1,6 @@
-package Learning.Basics;
+package Basics;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseNumber {
@@ -17,6 +18,9 @@ public class ReverseNumber {
 
             n/=10;
         }
+        long[] arr = {1,2,3,5,7,9};
+        System.out.println(Arrays.toString(arr));
+
         System.out.println("The reverse of the number is : "+res);
     }
 }
