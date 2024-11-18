@@ -1,4 +1,4 @@
-package Arrays.DSA;
+package Arrays.DSA.LinearSearch;
 
 public class EvenDigitNumbers {
     public static void main(String[] args) {
