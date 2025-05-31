@@ -22,7 +22,6 @@ public class LinearSearch {
                     nums[i] = sc.nextInt();
                 }
 
-
                 System.out.print("Enter the number to be searched: ");
                 int target = sc.nextInt();
 

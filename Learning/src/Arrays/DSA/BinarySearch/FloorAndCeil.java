@@ -27,7 +27,7 @@ public class FloorAndCeil {
                 end = mid - 1;
             }
         }
-        return arr[start];
+        return start;
     }
 
     static int floor(int[] arr, int target){
