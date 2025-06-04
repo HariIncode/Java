@@ -1,0 +1,96 @@
+Index: Learning/src/OOPS/Inheritance/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package OOPS.Inheritance;\n\npublic class Main {\n    public static void main(String[] args) {\n//        Box box = new Box(6);\n//        Box box1 = new Box(box);\n//\n//        System.out.println(box.l + \" \" + box.h + \" \" + box.w);\n//        System.out.println(box1.l + \" \" + box1.h + \" \" + box1.w);\n\n        BoxWeight box2 = new BoxWeight();\n        BoxWeight box3 = new BoxWeight(2,3,4,5);\n        System.out.println(box2.h + \" \" + box2.weight);\n        System.out.println(box3.h + \" \" + box3.weight);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Learning/src/OOPS/Inheritance/Main.java b/Learning/src/OOPS/Inheritance/Main.java
+--- a/Learning/src/OOPS/Inheritance/Main.java	(revision 658339cf1b3bac8ee5f6bf7685abb05fc16ed15a)
++++ b/Learning/src/OOPS/Inheritance/Main.java	(date 1749055639819)
+@@ -8,9 +8,11 @@
+ //        System.out.println(box.l + " " + box.h + " " + box.w);
+ //        System.out.println(box1.l + " " + box1.h + " " + box1.w);
+ 
+-        BoxWeight box2 = new BoxWeight();
+-        BoxWeight box3 = new BoxWeight(2,3,4,5);
+-        System.out.println(box2.h + " " + box2.weight);
+-        System.out.println(box3.h + " " + box3.weight);
++//        BoxWeight box2 = new BoxWeight();
++//        BoxWeight box3 = new BoxWeight(2,3,4,5);
++//        System.out.println(box2.h + " " + box2.weight);
++//        System.out.println(box3.h + " " + box3.weight);
++
++        BoxPrice box = new BoxPrice();
+     }
+ }
+Index: Learning/src/TCS/Fibonacci.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package TCS;\n\npublic class Fibonacci {\n    public static void main(String[] args) {\n        throw new IllegalArgumentException(\"no input\");\n//        System.out.println(\"this is a test\");\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Learning/src/TCS/Fibonacci.java b/Learning/src/TCS/Fibonacci.java
+--- a/Learning/src/TCS/Fibonacci.java	(revision 658339cf1b3bac8ee5f6bf7685abb05fc16ed15a)
++++ b/Learning/src/TCS/Fibonacci.java	(date 1749055639821)
+@@ -2,7 +2,18 @@
+ 
+ public class Fibonacci {
+     public static void main(String[] args) {
+-        throw new IllegalArgumentException("no input");
+-//        System.out.println("this is a test");
++        int n = 3;
++        System.out.println(fib(n));
++    }
++
++    static long fib(int n){
++        if( n <= 1 ) return n;
++        long a = 0, b = 1;
++        for (int i = 2; i <= n; i++) {
++            long temp = a + b;
++            a = b;
++            b = temp;
++        }
++        return b;
+     }
+ }
+Index: Learning/src/OOPS/Inheritance/Box.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package OOPS.Inheritance;\n\npublic class Box {\n    double l;\n    double h;\n    double w;\n\n    Box(){\n        this.l = -1;\n        this.h = -1;\n        this.w = -1;\n    }\n\n    Box(double side) {\n        this.h = side;\n        this.l = side;\n        this.w = side;\n    }\n\n    Box(double h, double w, double l) {\n        this.h = h;\n        this.w = w;\n        this.l = l;\n    }\n\n    Box(Box old){\n        this.h = old.h;\n        this.l = old.l;\n        this.w = old.w;\n    }\n\n    public void information(){\n        System.out.println(\"Running the Box\");\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Learning/src/OOPS/Inheritance/Box.java b/Learning/src/OOPS/Inheritance/Box.java
+--- a/Learning/src/OOPS/Inheritance/Box.java	(revision 658339cf1b3bac8ee5f6bf7685abb05fc16ed15a)
++++ b/Learning/src/OOPS/Inheritance/Box.java	(date 1749055639819)
+@@ -12,6 +12,7 @@
+     }
+ 
+     Box(double side) {
++        super();
+         this.h = side;
+         this.l = side;
+         this.w = side;
+Index: Learning/src/OOPS/Inheritance/BoxWeight.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package OOPS.Inheritance;\n\npublic class BoxWeight extends Box{\n    double weight;\n\n    public BoxWeight() {\n        this.weight = -1;\n    }\n\n    public BoxWeight(double h, double w, double l, double weight) {\n        super(h, w, l);\n        this.weight = weight;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Learning/src/OOPS/Inheritance/BoxWeight.java b/Learning/src/OOPS/Inheritance/BoxWeight.java
+--- a/Learning/src/OOPS/Inheritance/BoxWeight.java	(revision 658339cf1b3bac8ee5f6bf7685abb05fc16ed15a)
++++ b/Learning/src/OOPS/Inheritance/BoxWeight.java	(date 1749055639819)
+@@ -11,4 +11,10 @@
+         super(h, w, l);
+         this.weight = weight;
+     }
++
++    public BoxWeight(BoxPrice other) {
++        super(other);
++        this.weight = other.weight;
++    }
++
+ }

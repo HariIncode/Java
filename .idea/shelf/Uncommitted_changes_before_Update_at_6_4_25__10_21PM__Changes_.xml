@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_6_4_25,_10_21 PM_[Changes]" date="1749055861004" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_4_25,_10_21 PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 6/4/25, 10:21 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Learning/src/out/production/Learning/OOPS/Inheritance/BoxWeight.class" />
+    <option name="AFTER_PATH" value="Learning/src/out/production/Learning/OOPS/Inheritance/BoxWeight.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_4_25,_10_21 PM_[Changes]/BoxWeight.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Learning/src/out/production/Learning/OOPS/Inheritance/Box.class" />
+    <option name="AFTER_PATH" value="Learning/src/out/production/Learning/OOPS/Inheritance/Box.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_4_25,_10_21 PM_[Changes]/Box.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Learning/src/out/production/Learning/OOPS/Inheritance/Main.class" />
+    <option name="AFTER_PATH" value="Learning/src/out/production/Learning/OOPS/Inheritance/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_4_25,_10_21 PM_[Changes]/Main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Learning/src/out/production/Learning/TCS/Fibonacci.class" />
+    <option name="AFTER_PATH" value="Learning/src/out/production/Learning/TCS/Fibonacci.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_4_25,_10_21 PM_[Changes]/Fibonacci.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Learning/src/out/production/Learning/TCS/PrimeNumber.class" />
+    <option name="AFTER_PATH" value="Learning/src/out/production/Learning/TCS/PrimeNumber.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_4_25,_10_21 PM_[Changes]/PrimeNumber.class" />
+  </binary>
+</changelist>
