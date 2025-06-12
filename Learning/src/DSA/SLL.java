@@ -1,6 +1,6 @@
 package DSA;
 
-public class LL {
+public class SLL {
 
     public static class Node{
         //Actual Value that
@@ -21,7 +21,7 @@ public class LL {
     private Node tail;
     private int size;
 
-    public LL(){
+    public SLL(){
         this.size = 0;
     }
 
@@ -90,26 +90,34 @@ public class LL {
     }
 
     public int deleteLast(){
-        if (tail == head){
+        if (size <= 1){
             return deleteFirst();
         }
 
+        //Creating val for returning purpose
         int val = tail.value;
-        tail = get(size - 2);
+
+        //Creating a temp named secondLast and making it the tail
+        Node secondLast = get(size - 2);
+        tail = secondLast;
+        tail.next = null;
 
         size--;
 
         return val;
     }
 
-    public void display(){
-        Node temp = head;
-        while (temp != null){
-            System.out.print(temp.value+ " -> ");
-            temp = temp.next;
-        }
+    public int delete(int index){
+        if(index == 0) return deleteFirst();
+        if(index == size - 1) return deleteLast();
 
-        System.out.println("END");
+        Node prev = get(index - 1);
+        Node toDelete = prev.next;
+        prev.next = prev.next.next;
+
+        size--;
+
+        return toDelete.value;
     }
 
     public int getFirst(){
@@ -135,21 +143,44 @@ public class LL {
     }
 
     public Node get(int index){
-        Node node = head;
+        if (isEmpty()) return null;
 
-        for(int i = 1; i < index; i++){
+        Node node = head;
+        for(int i = 0; i < index; i++){
             node = node.next;
         }
 
         return node;
     }
 
+    public Node find(int value){
+        if(isEmpty()) return null;
+
+        Node node = head;
+        while(node != null){
+            if(node.value == value) return node;
+            node = node.next;
+        }
+
+        return null;
+    }
+
     public boolean isEmpty(){
         return head == null;
     }
 
+    public void display(){
+        Node temp = head;
+        while (temp != null){
+            System.out.print(temp.value+ " -> ");
+            temp = temp.next;
+        }
+
+        System.out.println("END");
+    }
+
     public static void main(String[] args) {
-        LL list = new LL();
+        SLL list = new SLL();
 
         System.out.println(list.isEmpty());
 
@@ -186,6 +217,12 @@ public class LL {
         System.out.println("GetFirstEle -> " + list.indexOf(1));
         System.out.println("GetFirstEle -> " + list.indexOf(194));
         System.out.println("GetFirstEle -> " + list.indexOf(195));
+
+        System.out.println(list.deleteLast());
+        list.display();
+
+        System.out.println(list.delete(2));
+        list.display();
 
     }
 }
