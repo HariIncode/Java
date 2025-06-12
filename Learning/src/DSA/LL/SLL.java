@@ -1,4 +1,4 @@
-package DSA;
+package DSA.LL;
 
 public class SLL {
 
