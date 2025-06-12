@@ -1,7 +1,5 @@
 package DSA;
 
-import java.util.LinkedList;
-
 public class LL {
 
     public static class Node{
@@ -54,14 +52,14 @@ public class LL {
 
     public void insert(int val, int index){
 
-        //If there is no head
-        if(head == null){
+        //If the List is Empty or Index is 0
+        if(index == 0){
             insertFist(val);
             return;
         }
 
-        //If there is no tail
-        if (tail == null){
+        //If Index is last
+        if (index == size){
             insertLast(val);
             return;
         }
@@ -114,6 +112,28 @@ public class LL {
         System.out.println("END");
     }
 
+    public int getFirst(){
+        return head.value;
+    }
+
+    public int getLast(){
+        return tail.value;
+    }
+
+    public int indexOf(int target){
+        Node temp = head;
+        int index = 0;
+
+        while (temp != null) {
+            if (temp.value == target)
+                return index;
+            temp = temp.next;
+            index++;
+        }
+
+        return -1;
+    }
+
     public Node get(int index){
         Node node = head;
 
@@ -124,21 +144,30 @@ public class LL {
         return node;
     }
 
+    public boolean isEmpty(){
+        return head == null;
+    }
+
     public static void main(String[] args) {
         LL list = new LL();
 
+        System.out.println(list.isEmpty());
+
         list.insertFist(19);
         list.insertFist(129);
-        list.insertFist(194);
+        list.insertLast(194);
         list.insertFist(195);
-        list.insertFist(13);
+        list.insertLast(13);
         list.insertFist(1);
-        list.insertFist(9);
+        list.insertLast(9);
 
         list.insert(100,3);
 
 
         list.display();
+
+        System.out.println(list.isEmpty());
+
 
         System.out.println(list.deleteFirst());
 
@@ -148,9 +177,15 @@ public class LL {
         System.out.println(list.head.value);
         System.out.println(list.tail.value);
 
-        System.out.println("Last ele" + list.deleteLast());
+        System.out.println("Last Element Deleted -> " + list.deleteLast());
 
         list.display();
+
+        System.out.println("GetFirst -> " + list.getFirst());
+        System.out.println("GetLast -> " + list.getLast());
+        System.out.println("GetFirstEle -> " + list.indexOf(1));
+        System.out.println("GetFirstEle -> " + list.indexOf(194));
+        System.out.println("GetFirstEle -> " + list.indexOf(195));
 
     }
 }
