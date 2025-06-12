@@ -1,8 +1,11 @@
 package DSA;
 
-public class LinkedList {
+import java.util.LinkedList;
 
-    private static class Node{
+public class LL {
+
+    public static class Node{
+        //Actual Value that
         private final int value;
         private Node next;
 
@@ -20,7 +23,7 @@ public class LinkedList {
     private Node tail;
     private int size;
 
-    public LinkedList(){
+    public LL(){
         this.size = 0;
     }
 
@@ -88,6 +91,19 @@ public class LinkedList {
         return val;
     }
 
+    public int deleteLast(){
+        if (tail == head){
+            return deleteFirst();
+        }
+
+        int val = tail.value;
+        tail = get(size - 2);
+
+        size--;
+
+        return val;
+    }
+
     public void display(){
         Node temp = head;
         while (temp != null){
@@ -108,10 +124,8 @@ public class LinkedList {
         return node;
     }
 
-
-
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+        LL list = new LL();
 
         list.insertFist(19);
         list.insertFist(129);
@@ -133,5 +147,10 @@ public class LinkedList {
         System.out.println(list.size);
         System.out.println(list.head.value);
         System.out.println(list.tail.value);
+
+        System.out.println("Last ele" + list.deleteLast());
+
+        list.display();
+
     }
 }
