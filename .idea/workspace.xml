@@ -4,83 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52c8cb68-46c3-4e5c-8fe3-caa2e64ea9c2" name="Changes" comment="Added Cyclic Sort">
-      <change afterPath="$PROJECT_DIR$/Learning/src/Patterns/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learning/src/Patterns/Star.java" afterDir="false" />
+    <list default="true" id="52c8cb68-46c3-4e5c-8fe3-caa2e64ea9c2" name="Changes" comment="Completed basic Star Patterns">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/Basics/ArrayListExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/Basics/Basics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/Basics/MaxInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/Basics/Swap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/DSA/BinarySearch/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/DSA/BinarySearch/FloorAndCeil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/DSA/BinarySearch/NextGreatestLetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/DSA/BinarySearch/OrderAgnosticBS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/DSA/LinearSearch/EvenDigitNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/DSA/LinearSearch/LinearSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Arrays/DSA/LinearSearch/SearchIn2DArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Basics/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Basics/ReverseNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/DSA/CustomStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/DSA/LL/DLL$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/DSA/LL/DLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/DSA/LL/SLL$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/DSA/LL/SLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/DSA/LearningStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Learning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Learning/Basics/AmstrongNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Learning/Basics/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Learning/Basics/CountOccurance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Learning/Basics/Days.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Learning/Basics/Methods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Learning/Basics/NestedSwitch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/Learning/Basics/PrimeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Abstract/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Abstract/Son.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Access/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Access/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Class/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Class/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Class/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Class/intro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Inheritance/Box.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Inheritance/BoxPrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Inheritance/BoxWeight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Inheritance/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Interface/Brake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Interface/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Interface/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Polymorphism/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Polymorphism/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Polymorphism/Numbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Polymorphism/ObjectPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Polymorphism/Shapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Polymorphism/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/OOPS/Polymorphism/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/String/Basics/Basics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/String/Basics/Palindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/String/Basics/StringMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/TCS/Factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/TCS/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/TCS/LCMAndGCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/TCS/Palindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/TCS/Practice/Chocolate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/TCS/PrimeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning/src/out/production/Learning/TCS/TowerOfHanoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Sorting/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Sorting/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/out/production/Learning/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/out/production/Learning/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/out/production/Learning/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/out/production/Learning/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/out/production/Learning/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/out/production/Learning/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/out/production/Learning/Learning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/src/Patterns/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learning/src/Patterns/Star.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +39,9 @@
     &quot;accountId&quot;: &quot;2a0b3ea2-cbd1-4337-b9b7-efdfe1d0d619&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -133,7 +62,7 @@
     "Application.Numbers.executor": "Run",
     "Application.Selection.executor": "Run",
     "Application.Simple.executor": "Run",
-    "Application.Star.executor": "Debug",
+    "Application.Star.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -147,7 +76,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Numbers">
+  <component name="RunManager" selected="Application.Star">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Java" />
       <option name="ENV_FILES" value="" />
@@ -256,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Numbers" />
         <item itemvalue="Application.Star" />
+        <item itemvalue="Application.Numbers" />
         <item itemvalue="Application.Simple" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.Cyclic" />
@@ -329,7 +258,39 @@
       <option name="project" value="LOCAL" />
       <updated>1775745571890</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="patch">
+      <option name="closed" value="true" />
+      <created>1775770267304</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775770267304</updated>
+    </task>
+    <task id="LOCAL-00009" summary="patch">
+      <option name="closed" value="true" />
+      <created>1775770278695</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775770278695</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Completed basic Number Patterns">
+      <option name="closed" value="true" />
+      <created>1775770335822</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775770335822</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Completed basic Star Patterns">
+      <option name="closed" value="true" />
+      <created>1775770396057</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775770396057</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +313,9 @@
     <MESSAGE value="Added SelectionSort" />
     <MESSAGE value="Added Insertion Sort" />
     <MESSAGE value="Added Cyclic Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Cyclic Sort" />
+    <MESSAGE value="patch" />
+    <MESSAGE value="Completed basic Number Patterns" />
+    <MESSAGE value="Completed basic Star Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed basic Star Patterns" />
   </component>
 </project>
